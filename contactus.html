@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="contactus.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text" placeholder="First Name" required />
+        <br />
+
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text" placeholder="last Name" required />
+        <br />
+
+        <label for="country">Country:</label>
+        <select id="country">
+          <option value="india">India</option>
+          <option value="south korea">South korea</option>
+          <option value="usa">USA</option>
+          <option value="japan">Japan</option>
+          <option value="russia">Russia</option>
+          <option value="israel">Israel</option>
+        </select>
+        <br />
+
+        <label for="phonenumber">Phone Number:</label>
+        <input
+          id="phonenumber"
+          type="tel"
+          pattern="[0-9]{4}[0-9]{4}[0-9]{2}"
+          placeholder="phone Number"
+          required
+        /><br />
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Email" required /><br />
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="Password" required />
+        <br />
+
+        <textarea rows="10" cols="40" required>
+      Feedback
+     </textarea
+        >
+
+        <br />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>

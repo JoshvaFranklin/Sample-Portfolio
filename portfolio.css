@@ -1,0 +1,53 @@
+.navMenu {
+  overflow: auto;
+  background-color: #333;
+}
+
+.navMenu a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  font-size: 20px;
+}
+
+.navMenu a:hover {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  color: blueviolet;
+  text-align: center;
+}
+
+#p1 {
+  color: black;
+  text-align: center;
+}
+
+#vd {
+  text-align: center;
+}
+
+#mp3 {
+  text-align: center;
+}
+
+#p2 {
+  color: white;
+}
+
+#discord {
+  margin: 0;
+  padding: 5px;
+  background-color: black;
+}
+
+h2 {
+  color: white;
+}
+
+.btn {
+  width: auto;
+}
